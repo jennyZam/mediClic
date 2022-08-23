@@ -1,0 +1,220 @@
+@charset "ISO-8859-1";
+
+.footer-color{
+  background-color: #1238d3;
+}
+
+.title-color {
+  color: #1238d3;
+  font-family: 'sans-serif';
+  font-weight: bolder;
+}
+
+.title-color:hover {
+  color: #5CAB02;
+  font-family: 'sans-serif';
+  font-weight: bolder;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #2898FA;
+  font-family: 'Tahoma';
+  font-weight: bolder;
+  font-size: 16;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #5CAB02;
+  font-family: 'Tahoma';
+  font-weight: bolder;
+  font-size: 16;
+}
+
+.navbar-nav .nav-item .nav-link:active {
+  background-color: #5CAB02;
+}
+
+tex-footer{
+  color: #ffffff;
+  font-family: 'Tahoma';
+  font-weight: bolder;
+}
+
+.til-color {
+  color: #000000;
+  font-family: 'sans-serif';
+  font-weight: bolder;
+}
+
+.bg-about {
+  /*Foto de Jad El Mourad en Pexels*/
+  background-image: url("images/img02.png") !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.btn-success {
+  background-color: #5CAB02;
+  color: #ffffff;
+  font-family: 'sans-serif';
+  border-radius: 20px;
+  border-color:  #5CAB02;
+}
+
+.btn-success:hover {
+  background-color: #3d7300;
+  color: #ffffff;
+  font-family: 'sans-serif';
+  border-color:  #3d7300;
+}
+
+.btn-success:focus,
+.btn-success.focus {
+  box-shadow: 0 0 0 .2rem rgba(91, 194, 194, 0.5);
+  font-family: 'sans-serif';
+}
+
+.btn-info {
+  background-color: #2898FA;
+  color: #ffffff;
+  font-family: 'sans-serif';
+  border-radius: 20px;
+  border-color:  #2898FA;
+}
+
+.btn-info:hover {
+  background-color: #2079c8;
+  color: #ffffff;
+  font-family: 'sans-serif';
+  border-color:  #2079c8;
+}
+
+.btn-info:focus,
+.btn-info.focus {
+  box-shadow: 0 0 0 .2rem rgba(91, 194, 194, 0.5);
+  font-family: 'sans-serif';
+}
+
+.btn-dark {
+  color: #ffffff;
+  font-family: 'sans-serif';
+  border-radius: 20px;
+}
+
+.btn-info:hover {
+  color: #ffffff;
+  font-family: 'sans-serif';
+  border-radius: 20px;
+}
+
+.link-success {
+  color: #5CAB02;
+  font-weight: bolder;
+  font-family: 'sans-serif';
+}
+
+
+.bg-logout {
+  /*https://www.pexels.com/es-es/foto/edificio-azul-410696/*/
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("images/img14.jpg") !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.foote-color{
+  background-color: #5CAB02;
+}
+
+.bg-profile {
+  /*Foto de cottonbro en Pexels*/
+  background-image: url("images/img15.png") !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.bg-project {
+  /*https://www.pexels.com/es-es/foto/arte-follaje-diseno-decoracion-7354594/*/
+  background-image: url("images/img16.png") !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.bg-projects {
+  /*https://www.pexels.com/es-es/foto/papel-pintado-abstracto-gris-3137052/*/
+  background-image: url("images/img17.png") !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.bg-projectsdis {
+  /*https://www.pexels.com/es-es/foto/arte-modelo-abstracto-circulo-7307587/*/
+  background-image: url("images/img18.png") !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.bg-projectsupport {
+/*pexels-ingemund-skålnes-8041434*/
+  background-image: url("images/img19.png") !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.bg-profil {
+/*pexels-jess-bailey-designs-1764436*/
+  background-image: url("images/img20.png") !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.bg-profiles {
+/*https://www.pexels.com/es-es/foto/foto-del-edificio-de-cristal-1826602/*/
+  background-image: url("images/img21.png") !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.bg-empre {
+/*pexels-markus-spiske-1268097*/
+  background-image: url("images/img22.png") !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.bg-inv {
+/*pexels-cottonbro-7429472*/
+  background-image: url("images/img23.png") !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.bg-list {
+/*pexels-maria-gloss-4197693*/
+  background-image: url("images/img24.png") !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-attachment: fixed;
+  background-position: center;
+}
