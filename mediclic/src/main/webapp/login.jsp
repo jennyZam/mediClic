@@ -13,7 +13,7 @@
 <link rel="stylesheet"
 	href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
 </head>
-<body class="vh-100 bg-login">
+<body class="min-vh-100 bg-login">
 
 	<nav class="navbar navbar-expand-lg navbar-nav-scroll navbar-light">
 		<div class="container-fluid">
@@ -110,8 +110,12 @@
 		</div>
 	</div>
 
+	<br>
+	<br>
+	<div class="mt-5 mb-5">
+	</div>
 	<footer
-		class="footer-color d-flex flex-wrap justify-content-between align-items-center py-3 mb-5 p-5 my-4 mt-5">
+		class="mt-auto footer-color d-flex flex-wrap justify-content-between align-items-center py-3 mb-5 p-5 my-4 mt-5">
 		<p
 			class="text-center display-7 offset-md-1 fw-bold text-white tex-footer">
 			MediClic © Copyright
