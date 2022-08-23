@@ -10,7 +10,7 @@ public class UsuariosModelo implements Serializable {
 	private int userId;
 	private String userName;
 	private String userPassword;
-	private Boolean dependents;
+	private int dependents;
 	private int clientId;
 	
 	
@@ -19,7 +19,7 @@ public class UsuariosModelo implements Serializable {
 	}
 
 
-	public UsuariosModelo(int userId, String userName, String userPassword, Boolean dependents, int clientId) {
+	public UsuariosModelo(int userId, String userName, String userPassword, int dependents, int clientId) {
 		super();
 		this.userId = userId;
 		this.userName = userName;
@@ -59,12 +59,12 @@ public class UsuariosModelo implements Serializable {
 	}
 
 
-	public Boolean getDependents() {
+	public int getDependents() {
 		return dependents;
 	}
 
 
-	public void setDependents(Boolean dependents) {
+	public void setDependents(int dependents) {
 		this.dependents = dependents;
 	}
 

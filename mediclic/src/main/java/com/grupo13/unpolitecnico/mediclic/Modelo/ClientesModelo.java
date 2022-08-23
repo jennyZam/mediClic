@@ -1,7 +1,6 @@
 package com.grupo13.unpolitecnico.mediclic.Modelo;
 
 import java.io.Serializable;
-import java.util.Date;
 
 public class ClientesModelo implements Serializable {
 

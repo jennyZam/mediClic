@@ -62,7 +62,7 @@ public class UsuariosDao implements UsuariosInterface {
 				consulta = conect.prepareStatement(read);
 				consulta.setString(1, usuario.getUserName());
 				consulta.setString(2, usuario.getUserPassword());
-				consulta.setBoolean(3, usuario.getDependents());
+				consulta.setInt(3, usuario.getDependents());
 				consulta.setInt(4, usuario.getClientId());
 
 				consulta.executeUpdate();
@@ -105,7 +105,7 @@ public class UsuariosDao implements UsuariosInterface {
 					p.setUserId(buscar.getInt(1));
 					p.setUserName(buscar.getString(2));
 					p.setUserPassword(buscar.getString(3));
-					p.setDependents(buscar.getBoolean(4));
+					p.setDependents(buscar.getInt(4));
 					mostrar.add(p);
 				}
 
