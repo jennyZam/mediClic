@@ -1,4 +1,4 @@
-package com.grupo13.unpolitecnico.mediclic;
+package com.grupo13.unpolitecnico.mediclic.BO;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
