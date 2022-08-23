@@ -46,13 +46,17 @@ tex-footer{
   font-weight: bolder;
 }
 
-.bg-about {
-  /*Foto de Jad El Mourad en Pexels*/
-  background-image: url("images/img02.png") !important;
+.bg-login {
+  /*Foto de Pixabay: https://www.pexels.com/es-es/foto/edificio-blanco-15120-269077/*/
+  background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(0,0,0,0.4)), url("images/img02.jpg") !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
   background-attachment: fixed;
   background-position: center;
+}
+
+.transparent {
+  background-color: rgba(255,255,255,0.1);
 }
 
 .btn-success {
