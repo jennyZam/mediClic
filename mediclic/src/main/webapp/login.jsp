@@ -1,4 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -41,12 +42,13 @@
 	</nav>
 
 
-	<div class="container-fluid h-auto bg-light w-75 p-3 mt-5 mb-3 transparent">
+	<div
+		class="container-fluid h-auto bg-light w-75 p-3 mt-5 mb-3 transparent">
 		<div class="row d-flex justify-content-center">
 			<div class="col-md-4 align-items-center mt-5">
-			<br>
-			<br>
-				<h1 class="h1 text-center mt-3 mb-5 til-color py-5">Inicio de Sesion</h1>
+				<br> <br>
+				<h1 class="h1 text-center mt-3 mb-5 til-color py-5">Inicio de
+					Sesion</h1>
 			</div>
 			<div class="col-md-4 align-items-center justify-content-center">
 				<div class="text-center">
@@ -62,49 +64,51 @@
 					</div>
 					<div id="error"
 						class="alert alert-danger visually-hidden text-center"
-						role="alert">Usuario o contraseÃ±a incorrecta!</div>
-					<form class="justify-content-center" id="formemp">
+						role="alert">Usuario o contrasena incorrecta!</div>
+					<form class="justify-content-center" id="formuser">
 						<div class="mb-2 mt-3">
-							<label for="Inputempname" class="form-label">Usuario*</label>
+							<label for="Inputusername" class="form-label">Ingrese
+								Usuario*</label>
 							<div class="input-group">
 								<div class="input-group-text">
 									<i class="bi bi-person-check-fill"></i>
 								</div>
-								<input type="text" class="form-control" id="empname"
-									name="empname" placeholder="Usuario*" required="required">
+								<input type="text" class="form-control" id="username"
+									name="username" placeholder="Usuario*" required="required">
 							</div>
 						</div>
 
 						<div class="mb-2">
-							<label for="Inputemppass" class="form-label">Contrasena*</label>
+							<label for="Inputuserpass" class="form-label">Ingrese
+								Contraseña*</label>
 							<div class="input-group">
 								<div class="input-group-text">
 									<i class="bi bi-key"></i>
 								</div>
-								<input type="password" class="form-control" id="emppass"
-									name="emppass" placeholder="Contrasena*" required="required">
+								<input type="password" class="form-control" id="userpass"
+									name="userpass" placeholder="Contraseña*" required="required">
 								<div class="input-group-append bg-light">
-									<button id="mostrarpasswords" class="btn border border-light"
-										type="button" onclick="mostrarPasswords()">
+									<button id="mostrarpassword" class="btn border border-light"
+										type="button" onclick="mostrarPassword()">
 										<span class="bi bi-eye-slash-fill icons"></span>
 									</button>
 								</div>
 							</div>
 						</div>
 
-						<div class="text-center mt-3 mb-3 px-4 mx-4">
-							<button type="button" class="btn btn-success" onclick="aceptar()">
-								<i class="bi bi-person-bounding-box px-2"></i>Ingresar
+						<div class="text-center">
+							<button type="button" class="btn btn-info" onclick="verificar()">
+								<i class="bi bi-person-circle px-2"></i>Ingresar
 							</button>
 						</div>
-						<div class="text-center">
-							<p>
-								<a href="signup.jsp"
-									class="link-success fs-5 text-decoration-underline">Olvido
-									su contrasena?</a>
-							</p>
-						</div>
 					</form>
+					<div class="text-center">
+						<p>
+							<a href="signup.jsp"
+								class="link-success fs-5 text-decoration-underline">Olvido
+								su contrasena?</a>
+						</p>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -112,8 +116,7 @@
 
 	<br>
 	<br>
-	<div class="mt-5 mb-5">
-	</div>
+	<div class="mt-5 mb-5"></div>
 	<footer
 		class="mt-auto footer-color d-flex flex-wrap justify-content-between align-items-center py-3 mb-5 p-5 my-4 mt-5">
 		<p
@@ -138,7 +141,6 @@
 	<script src="assets/jquery/jquery-3.6.0.min.js"></script>
 	<script src="assets/jsc/log.js" type="text/javascript"></script>
 	<script src="assets/jsc/veri.js" type="text/javascript"></script>
-	<script src="assets/jsc/veriEmp.js" type="text/javascript"></script>
 	<script src="assets/js/bootstrap.bundle.min.js"></script>
 	<script src="assets/popper/popper.min.js"></script>
 	<script src="assets/js/bootstrap.min.js"></script>

@@ -30,10 +30,9 @@ public class UsuariosDao implements UsuariosInterface {
 	public String crear(UsuariosModelo usuario) {
 
 		if (conect != null) {
-			regisDatos = "(userId,userName,userPassword,dependents,clientId,passwordUsuarios)";
+			regisDatos = "(userId,userName,userPassword,dependents,clientId)";
 			registroDatos = "('" + usuario.getUserId() + "'," + "'" + usuario.getUserName() + "'," + "'"
-					+ usuario.getUserPassword() + "'," + "'" + usuario.getDependents() + "'," + "'"
-					+ usuario.getClientId() + "')";
+					+ usuario.getUserPassword() + "'," + "'" + usuario.getDependents() + "')";
 
 			read = "INSERT INTO users" + regisDatos + "VALUES" + registroDatos;
 			try {
@@ -56,14 +55,14 @@ public class UsuariosDao implements UsuariosInterface {
 	@Override
 	public String modificar(UsuariosModelo usuario) {
 		if (conect != null) {
-			read = "UPDATE users SET userName= ?," + "userPassword= ?," + "dependents= ? WHERE clientId= ? ";
+			read = "UPDATE users SET userName= ?," + "userPassword= ?," + "dependents= ? WHERE userId= ? ";
 
 			try {
 				consulta = conect.prepareStatement(read);
 				consulta.setString(1, usuario.getUserName());
 				consulta.setString(2, usuario.getUserPassword());
 				consulta.setInt(3, usuario.getDependents());
-				consulta.setInt(4, usuario.getClientId());
+				consulta.setInt(4, usuario.getUserId());
 
 				consulta.executeUpdate();
 				consulta.close();
