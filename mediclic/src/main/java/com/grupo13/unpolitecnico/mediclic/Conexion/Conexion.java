@@ -6,7 +6,7 @@ import java.sql.DriverManager;
 
 public class Conexion {
 
-	private String db = "helpto";
+	private String db = "mediclic";
 	private String url = "jdbc:mysql://localhost/" + db; 
 	
 	private String users = "root"; 

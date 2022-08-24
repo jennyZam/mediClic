@@ -1,5 +1,3 @@
-//Con apoyo de Ingeniero Diego Rodriguez
-
 var baseUrl = 'http://localhost:8080'
 var getUrl = window.location;
 //var baseUrl = getUrl.protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1];
@@ -26,15 +24,15 @@ function verificar() {
 			for (cont = 0; cont < usuarios.length; cont++) {
 
 				//si el usuario es el correcto
-				if (usuarios[cont].usuarioUsuarios == name) {
+				if (usuarios[cont].userName == name) {
 					//si la password es correcta
-					if (usuarios[cont].passwordUsuarios == pas) {
+					if (usuarios[cont].userPassword == pas) {
 						console.log("si");
 						var element = document.getElementById("error");
 						element.classList.add("visually-hidden");
 						document.getElementById("username").value = "";
 						document.getElementById("userpass").value = "";
-						window.location.href = "iniciu.jsp";
+						window.location.href = "profile.jsp";
 						return;
 					} else {
 						//si la password NO esta correcta

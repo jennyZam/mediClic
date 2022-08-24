@@ -11,7 +11,6 @@ public class UsuariosModelo implements Serializable {
 	private String userName;
 	private String userPassword;
 	private int dependents;
-	private int clientId;
 	
 	
 	public UsuariosModelo() {
@@ -19,13 +18,12 @@ public class UsuariosModelo implements Serializable {
 	}
 
 
-	public UsuariosModelo(int userId, String userName, String userPassword, int dependents, int clientId) {
+	public UsuariosModelo(int userId, String userName, String userPassword, int dependents) {
 		super();
 		this.userId = userId;
 		this.userName = userName;
 		this.userPassword = userPassword;
 		this.dependents = dependents;
-		this.clientId = clientId;
 	}
 
 
@@ -69,13 +67,5 @@ public class UsuariosModelo implements Serializable {
 	}
 
 
-	public int getClientId() {
-		return clientId;
-	}
-
-
-	public void setClientId(int clientId) {
-		this.clientId = clientId;
-	}
-
+	
 }
