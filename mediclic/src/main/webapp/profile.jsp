@@ -7,7 +7,7 @@
 <meta charset="ISO-8859-1">
 <meta name="viewport" content="width=device-width">
 <link rel="shortcut icon" href="assets/images/iconlogo.png" type="image/x-icon">
-<title>Salir</title>
+<title>Perfil</title>
 <link href="assets/css/bootstrap.min.css" rel="stylesheet"/>
 <link href="assets/style.css" rel="stylesheet" type="text/css" />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">

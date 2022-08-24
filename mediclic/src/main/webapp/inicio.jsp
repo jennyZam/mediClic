@@ -72,7 +72,7 @@ pageEncoding="ISO-8859-1"%>
 		class="mt-auto footer-color d-flex flex-wrap justify-content-between align-items-center py-3 mb-5 p-5 my-4 mt-5">
 		<p
 			class="text-center display-7 offset-md-1 fw-bold text-white tex-footer">
-			MediClic Â© Copyright
+			MediClic © Copyright
 			<script type="text/javascript">
 				copyright = new Date();
 				update = copyright.getFullYear();
